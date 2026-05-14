@@ -7,8 +7,6 @@ name: Code coverage
 run-name: Generating code coverage results
 on:
   workflow_dispatch:
-
-on:
   push:
     branches:
       - main
