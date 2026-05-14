@@ -7,7 +7,9 @@ name: Code coverage
 run-name: Generating code coverage results
 on:
   workflow_dispatch:
-
+  push:
+    branches:
+      - main
 jobs:
   ubuntu-default-compilers:
     runs-on: ubuntu-24.04
